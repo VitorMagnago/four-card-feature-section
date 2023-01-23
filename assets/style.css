@@ -1,1 +1,11 @@
 @import url(reset.css);
+
+:root{
+    --font-poppins: 'Poppins', sans-serif;
+    --background-color: #F2F2F2;
+    --font-color: #4D4F62;
+    --card-red: #EA5454;
+    --card-green: #44D3D2;
+    --card-yellow: #FCAE4A;
+    --card-blue: #549EF2;
+}
