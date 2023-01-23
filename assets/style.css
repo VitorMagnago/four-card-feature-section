@@ -1,104 +1,103 @@
 @import url(reset.css);
 
-:root{
-    --font-poppins: 'Poppins', sans-serif;
-    --background-page: #F2F2F2;
-    --background-card: #FFFFFF;
-    --font-color: #4D4F62;
-    --card-red: #EA5454;
-    --card-green: #44D3D2;
-    --card-yellow: #FCAE4A;
-    --card-blue: #549EF2;
+:root {
+	--font-poppins: "Poppins", sans-serif;
+	--background-page: #f2f2f2;
+	--background-card: #ffffff;
+	--font-color: #4d4f62;
+	--card-red: #ea5454;
+	--card-green: #44d3d2;
+	--card-yellow: #fcae4a;
+	--card-blue: #549ef2;
 }
 
-body{
-    /* min-height: 100vh; */
-    background-color: var(--background-page);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content:center ;
-    font-family: var(--font-poppins);
+body {
+	/* min-height: 100vh; */
+	background-color: var(--background-page);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	font-family: var(--font-poppins);
 }
-.info{
-    width: 83vw;
-    margin-bottom: 4.75rem;
-    margin-top: 5rem;
-}
-
-.info__generic{
-    font-size: 1.5rem;
-    font-weight: 300;
-    letter-spacing: .17px;
-    color: var(--font-color);
+.info {
+	width: 83vw;
+	margin-bottom: 4.75rem;
+	margin-top: 5rem;
 }
 
-.info__title{
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--font-color);
-    letter-spacing: .17px;
+.info__generic {
+	font-size: 1.5rem;
+	font-weight: 300;
+	letter-spacing: 0.17px;
+	color: var(--font-color);
 }
 
-.info__text{
-    font-size: .9375rem;
-    font-weight: 400;
-    line-height: 1.66;
-    letter-spacing: .1px;
-    padding-top: 1rem;
+.info__title {
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: var(--font-color);
+	letter-spacing: 0.17px;
 }
 
-.cards-wrap{
-    width: 83vw;
-    display: grid;
-    row-gap: 1.5rem;
-    margin-bottom: 4.875rem;
+.info__text {
+	font-size: 0.9375rem;
+	font-weight: 400;
+	line-height: 1.66;
+	letter-spacing: 0.1px;
+	padding-top: 1rem;
 }
 
-.card{
-background-color: var(--background-card);
-box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
-border-radius: 0.5rem;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 1.75rem;
-text-align: left;
+.cards-wrap {
+	width: 83vw;
+	display: grid;
+	row-gap: 1.5rem;
+	margin-bottom: 4.875rem;
 }
 
-.card--supervisor{
-    border-top: 4px solid var(--card-green);
+.card {
+	background-color: var(--background-card);
+	box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+	border-radius: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 1.75rem;
+	text-align: left;
 }
 
-.card--team{
-    border-top: 4px solid var(--card-red);
-
+.card--supervisor {
+	border-top: 4px solid var(--card-green);
 }
 
-.card--karma{
-    border-top: 4px solid var(--card-yellow);
+.card--team {
+	border-top: 4px solid var(--card-red);
 }
 
-.card--calculator{
-    border-top: 4px solid var(--card-blue);
+.card--karma {
+	border-top: 4px solid var(--card-yellow);
 }
 
-.card__title{
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: var(--font-color);
+.card--calculator {
+	border-top: 4px solid var(--card-blue);
 }
 
-.card__text{
-    padding-bottom: 2rem;
-    font-size: .8125rem;
-    color: var(--font-color);
+.card__title {
+	font-size: 1.25rem;
+	font-weight: 600;
+	color: var(--font-color);
 }
 
-.card__image{
-    align-self:flex-end;
-    width: 57px;
+.card__text {
+	padding-bottom: 2rem;
+	font-size: 0.8125rem;
+	color: var(--font-color);
+}
+
+.card__image {
+	align-self: flex-end;
+	width: 57px;
 }
 
 /* Desktop Layout */
