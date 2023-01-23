@@ -24,7 +24,29 @@ body{
 .info{
     width: 83vw;
     margin-bottom: 4.75rem;
-    margin-top: 80px;
+    margin-top: 5rem;
+}
+
+.info__generic{
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: .17px;
+    color: var(--font-color);
+}
+
+.info__title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--font-color);
+    letter-spacing: .17px;
+}
+
+.info__text{
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 1.66;
+    letter-spacing: .1px;
+    padding-top: 1rem;
 }
 
 .cards-wrap{
@@ -40,8 +62,9 @@ box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
 border-radius: 0.5rem;
 display: flex;
 flex-direction: column;
-align-items: center;
+align-items: flex-start;
 padding: 1.75rem;
+text-align: left;
 }
 
 .card--supervisor{
@@ -61,11 +84,21 @@ padding: 1.75rem;
     border-top: 4px solid var(--card-blue);
 }
 
+.card__title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--font-color);
+}
+
+.card__text{
+    padding-bottom: 2rem;
+    font-size: .8125rem;
+    color: var(--font-color);
+}
+
 .card__image{
     align-self:flex-end;
     width: 57px;
 }
 
-.card__text{
-    padding-bottom: 2rem;
-}
+/* Desktop Layout */
