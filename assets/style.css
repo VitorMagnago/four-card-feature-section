@@ -9,3 +9,8 @@
     --card-yellow: #FCAE4A;
     --card-blue: #549EF2;
 }
+
+body{
+    min-height: 100vh;
+    background-color: var(--background-color);
+}
