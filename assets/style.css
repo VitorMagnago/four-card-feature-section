@@ -29,7 +29,7 @@ body {
 .info__generic {
 	font-size: 1.5rem;
 	font-weight: 300;
-	letter-spacing: 0.17px;
+	letter-spacing: 0.0106rem;
 	color: var(--font-color);
 }
 
@@ -37,14 +37,14 @@ body {
 	font-size: 1.5rem;
 	font-weight: 600;
 	color: var(--font-color);
-	letter-spacing: 0.17px;
+	letter-spacing: 0.0106rem;
 }
 
 .info__text {
 	font-size: 0.9375rem;
 	font-weight: 400;
 	line-height: 1.66;
-	letter-spacing: 0.1px;
+	letter-spacing: 0.0063rem;
 	padding-top: 1rem;
 }
 
@@ -110,20 +110,12 @@ body {
 
 	.info__generic {
 		font-size: 2.25rem;
-		letter-spacing: 0.25px;
+		letter-spacing: 0.0156rem;
 	}
 
 	.info__title {
 		font-size: 2.25rem;
-		letter-spacing: 0.25px;
-	}
-
-	.info__text {
-		font-size: 0.9375rem;
-		font-weight: 400;
-		line-height: 1.66;
-		letter-spacing: 0.1px;
-		padding-top: 1rem;
+		letter-spacing: 0.0156rem;
 	}
 
 	.cards-wrap {
