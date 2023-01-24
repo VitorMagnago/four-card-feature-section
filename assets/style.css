@@ -12,7 +12,6 @@
 }
 
 body {
-	/* min-height: 100vh; */
 	background-color: var(--background-page);
 	display: flex;
 	flex-direction: column;
@@ -36,7 +35,7 @@ body {
 
 .info__title {
 	font-size: 1.5rem;
-	font-weight: 700;
+	font-weight: 600;
 	color: var(--font-color);
 	letter-spacing: 0.17px;
 }
@@ -93,6 +92,7 @@ body {
 	padding-bottom: 2rem;
 	font-size: 0.8125rem;
 	color: var(--font-color);
+	line-height: 1.6;
 }
 
 .card__image {
@@ -101,3 +101,67 @@ body {
 }
 
 /* Desktop Layout */
+
+@media (min-width: 48.0625rem) {
+	.info {
+		width: 38vw;
+		margin-bottom: 4rem;
+	}
+
+	.info__generic {
+		font-size: 2.25rem;
+		letter-spacing: 0.25px;
+	}
+
+	.info__title {
+		font-size: 2.25rem;
+		letter-spacing: 0.25px;
+	}
+
+	.info__text {
+		font-size: 0.9375rem;
+		font-weight: 400;
+		line-height: 1.66;
+		letter-spacing: 0.1px;
+		padding-top: 1rem;
+	}
+
+	.cards-wrap {
+		width: calc(77% - 3.75rem);
+		height: calc(57% - 5.625rem);
+		grid-template-columns: repeat(3, 33.33%);
+		grid-template-rows: repeat(4, auto);
+		gap: 1.875rem;
+		justify-content: center;
+	}
+
+	.card {
+		align-items: flex-start;
+		padding: 2rem;
+	}
+
+	.card--supervisor {
+		grid-area: 2 / 1 / 4 / 2;
+	}
+
+	.card--team {
+		grid-area: 1 / 2 / 3 / 3;
+	}
+
+	.card--karma {
+		grid-area: 3 / 2 / 5 / 3;
+	}
+
+	.card--calculator {
+		grid-area: 2 / 3 / 4 / 4;
+	}
+
+	.card__image {
+		width: 64px;
+		justify-self: flex-end;
+	}
+
+	.card__text {
+		padding: 0.375rem 0 2.5rem 0;
+	}
+}
