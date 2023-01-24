@@ -1,12 +1,41 @@
-# Frontend Mentor - Four card feature section
+# Frontend Mentor - Four card feature section solution
 
-![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
+This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). 
 
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## Overview
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+ <img src="https://skillicons.dev/icons?i=html,css,vscode,git,github,figma" />
 
-## The challenge
+<br>
+<br>
+<br>
 
-This challenge is to build out this feature section and get it looking as close to the design as possible.
+## Screenshot
+
+### Desktop Version
+
+![](images/desktop-solution.png)
+
+### Mobile Version
+
+![](images/mobile-solution.png)
+
+### Links
+
+- [Solution in Front End Mentor Site:](https://www.frontendmentor.io/solutions/four-card-feature-section-Dwsavnfc1-)
+- [Live Site](https://four-card-livid.vercel.app/)
+
+<br>
+<br>
+
+## My process
+
+Another challenge similar to the previous ones but this time I tried to use new things I'm learning, like improving semantic HTML5 markup, CSS Grid, custom Properties and Mobile-first workflow.
+
+<br>
+
+## Author
+
+- Frontend Mentor - [@VitorMagnago](https://www.frontendmentor.io/profile/VitorMagnago)
+
